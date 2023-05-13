@@ -1,0 +1,131 @@
+a,p,h1,h2,h3,h4,h5{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}
+
+.nav{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.nav-con{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-left{
+    width: 40%;
+}
+.nav-left img{
+    width: 300px;
+    border-radius: 5px;
+    height: 60px;
+}   
+.nav-right{
+    width: 30%;
+    text-align: center;
+}
+.nav-right a{
+    color: rgb(246, 126, 126);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-right a:hover{
+    font-size: 26px;
+    color: rgb(245, 175, 175);
+    transition-duration: 0.5s;
+}
+.nav-line{
+    width: 100px;
+    margin: 0 auto ;
+    height: 1px;
+    background-color: rgb(108, 108, 109);
+}
+.desc{
+    background-color: rgb(246, 126, 126) ;
+    margin-bottom: 25px;
+}
+.desc-con{
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    /* color: rgb(0, 64,71); */
+    color: #fff;
+    font-size: 20px;
+}
+
+.katalog{
+    background-color: #fff;
+}
+.katalog-con{
+    width: 1100px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    border-radius: 2px;
+    background-color: rgb(210, 204, 199);
+}
+.catalog{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.catalog img{
+    width: 90%;
+    height: 500px;      
+}
+
+.z-catalog{
+    text-align: center;
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+}
+.z-catalogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.z-catalogs img{
+    width: 330px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.s-catalog{
+    text-align: center;
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+}
+.s-catalogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.s-catalog img{
+    width: 330px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.r-catalog{
+    text-align: center;
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+}
+.r-catalogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.r-catalog img{
+    width: 330px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
